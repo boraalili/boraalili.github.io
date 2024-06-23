@@ -1,0 +1,133 @@
+body {
+    background-color: #320a0f;
+    display: flex;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: mistyrose;
+}
+
+.sidebar {
+    height: 100vh;
+    width: 20%;
+    background-color: #4e0f17;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: fixed;
+}
+
+#bpw {
+    margin: 10px 10px 10px 10px;
+    background-color: #f3d4d2;
+    border-radius: 10px;
+    padding: 3px;
+    text-align: center;
+}
+
+
+.sidebar a {
+    margin-bottom: 5px;
+    padding: 15px;
+    text-decoration: none;
+    color: mistyrose;
+    display: block;
+    text-align: center;
+}
+
+.sidebar a:hover {
+    background-color: #320a0f;
+
+}
+
+.fund {
+    margin-top: auto;
+    margin-bottom: 8px;
+    color: mistyrose;
+    text-align: center;
+}
+
+.sidebar h1 {
+    font-weight: bold;
+    color: #4e0f17;
+    text-align: center;
+    /*margin-left: 30px;*/
+}
+.content{
+     color: #4e0f17;
+     /*flex: 1;*/
+    /*display: flex;*/
+    /*justify-content: flex-start;*/
+    /*padding-left: 200px;*/
+    /*flex-direction: column;*/
+    float: right ;
+    width: 60%;
+    margin-left: 23%;
+    margin-right: 23px;
+ }
+
+#about h1, #education h1, #skills h1, #hobbies h1, #favorites h1, #contact h1{
+    font-size: xx-large;
+    color: #e6c4c2;
+}
+
+.kako{
+    display: flex;
+    align-items: center;
+}
+.schools{
+    display: flex;
+    flex-direction: column;
+}
+.shorty {
+    border: #4e0f17 solid 1px;
+    border-radius: 10px;
+    color: mistyrose;
+    background-color: #4e0f17;
+    padding: 5px 10px 10px 10px;
+}
+.shortyy {
+    border: #f3d4d2 solid 1px;
+    border-radius: 10px;
+    color: #4e0f17;
+    background-color: #f3d4d2;
+    padding: 5px 10px 5px 10px;
+}
+
+.uni {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.skills-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#bs{
+    text-decoration: none;
+    color: mistyrose;
+}
+.imagess{
+
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+.mloo {
+    display: flex;
+    align-items: center;
+}
+
+/*#images{*/
+/*    display: grid;*/
+/*    grid-template-columns: 1fr;*/
+/*}*/
+/*#images img{*/
+/*    width: 15%;*/
+/*    height: 15%;*/
+/*}*/
